@@ -1,0 +1,35 @@
+:root {
+  --fc-page-bg-color: transparent !important;
+}
+
+/* Set the default value for the text color */
+.ant-tree .ant-tree-treenode {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 7px 0;
+  outline: none;
+}
+
+.fc-timeline-event {
+  margin-top: 2px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.fc-timeline-lane-frame {
+  padding-top: 5px !important;
+}
+
+.fc-timeline-overlap-disabled .fc-timeline-event {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.fc-license-message {
+  display: none;
+}
+
+.assigned-table-rows {
+  color: #1890ff;
+  font-weight: bold;
+}

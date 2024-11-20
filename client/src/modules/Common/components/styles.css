@@ -1,0 +1,169 @@
+.module-edit-button:hover svg,
+.ant-btn:not(:disabled):focus-visible {
+  fill: var(--primary-color) !important;
+  outline: none !important;
+}
+.ant-mentions-focused {
+  border-color: #c94249;
+  box-shadow: none !important;
+  border-inline-end-width: 1px;
+  outline: 0;
+  border-right: none !important;
+}
+
+.input-comment:focus-within {
+  border-color: #c94249;
+  box-shadow: 0 0 0 2px rgba(217, 55, 30, 0.08);
+  border-inline-end-width: 1px;
+  outline: 0;
+}
+.text-container {
+  color: blue;
+  font-weight: bold;
+}
+
+.tox-toolbar {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.tox-editor-header {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.tox-tinymce {
+  border: 2px solid var(--fc-border-color) !important;
+}
+
+.tox .tox-tbtn--disabled svg,
+.tox .tox-tbtn--disabled:hover svg,
+.tox .tox-tbtn:disabled svg,
+.tox .tox-tbtn:disabled:hover svg {
+  fill: var(--text-color) !important;
+}
+.tox .tox-tbtn svg,
+.tox .tox-tbtn:hover svg,
+.tox .tox-tbtn svg,
+.tox .tox-tbtn:hover svg {
+  fill: var(--text-color) !important;
+}
+
+.tox .tox-menu {
+  background-color: var(--background-color) !important;
+}
+
+.tox .tox-collection--list .tox-collection__item--enabled {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+.tox .tox-collection--list .tox-collection__item--active {
+  background-color: var(--fc-border-color) !important;
+  color: var(--text-color) !important;
+}
+.tox .tox-collection--group .tox-collection__item--enabled {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+.tox .tox-collection--group .tox-collection__item--active {
+  background-color: var(--fc-border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.tox-collection__item-label {
+  color: var(--text-color) !important;
+}
+
+/* sdfsdf */
+.tox .tox-tbtn--bespoke {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.tox .tox-dialog {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.tox .tox-dialog__header {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+.tox .tox-dialog__body {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.tox .tox-dialog__body-nav-item--active {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.tox .tox-dialog__body-nav-item {
+  color: var(--text-color) !important;
+}
+
+.tox .tox-listbox__select-label {
+  color: var(--text-color) !important;
+}
+
+.tox .tox-listbox__select-chevron svg {
+  fill: var(--text-color) !important;
+}
+
+.tox .tox-listboxfield .tox-listbox--select,
+.tox .tox-textarea,
+.tox .tox-textarea-wrap .tox-textarea:focus,
+.tox .tox-textfield,
+.tox .tox-toolbar-textfield {
+  background-color: var(--fc-border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.tox .tox-label {
+  color: var(--text-color) !important;
+}
+.tox-color-input .tox-textfield {
+  color: var(--text-color) !important;
+}
+
+.tox .tox-checkbox__icons {
+  box-shadow: 0 0 0 2px var(--fc-border-color) !important;
+}
+
+.tox .tox-dialog__footer {
+  background-color: var(--background-color) !important;
+}
+.tox .tox-button {
+  background-color: var(--primary-color) !important;
+  border-color: var(--fc-border-color) !important;
+  color: var(--text-color) !important;
+}
+.tox .tox-button--secondary {
+  background-color: var(--fc-border-color) !important;
+  border-color: var(--fc-border-color) !important;
+  color: var(--text-color) !important;
+}
+
+iframe#basic-_content_ifr {
+  background-color: var(--background-color) !important;
+  color: "red";
+}
+
+.tox .tox-tbtn:hover {
+  background-color: var(--fc-border-color) !important;
+}
+
+.tox .tox-dialog-wrap__backdrop {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.tox .tox-tbtn--enabled,
+.tox .tox-tbtn--enabled:hover {
+  background: var(--fc-border-color);
+
+  color: var(--text-color) !important;
+}
+
+/* --fc-border-color: #cecece;
+--primary-color: #bd212d;
+--background-color: #dddddd; */

@@ -1,0 +1,20 @@
+#profile-platform .ant-descriptions-item-container {
+  align-items: center !important;
+}
+
+.notification-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: auto;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}

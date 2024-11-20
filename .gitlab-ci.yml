@@ -1,0 +1,19 @@
+# ===============================
+# Project P Stages
+# ===============================
+stages:
+  - changelog
+  - setup
+  - build
+  - deploy
+  - domain
+
+# ===============================
+# Includes
+# ===============================
+include:
+  - "/yaml/before-script.yml"
+  - "/yaml/base-config.yml"
+  - "/yaml/dev-config.yml"
+  - "/yaml/demo-config.yml"
+  - "/yaml/prod-config.yml"

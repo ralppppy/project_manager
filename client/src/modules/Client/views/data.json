@@ -1,0 +1,1758 @@
+{
+  "data": {
+    "clients": [
+      {
+        "id": "420",
+        "clientnr": "x210216",
+        "clientname": " Basler Kantonalbank",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "392",
+        "clientnr": "1553",
+        "clientname": "2B-Visions AG",
+        "open_projects": 7,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "500",
+        "clientnr": "1845",
+        "clientname": "A.Vogel AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "426",
+        "clientnr": "3242",
+        "clientname": "Accord Precision CNC Machining",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "432",
+        "clientnr": "564",
+        "clientname": "Acrostak",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "329",
+        "clientnr": "1234",
+        "clientname": "Afeno GmbH",
+        "open_projects": 0,
+        "closed_projects": 6,
+        "archived_projects": 0
+      },
+      {
+        "id": "509",
+        "clientnr": "1853",
+        "clientname": "Agroscope",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "332",
+        "clientnr": "1356",
+        "clientname": "Alpha Protect AG",
+        "open_projects": 2,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "293",
+        "clientnr": "568",
+        "clientname": "AMAG Automobil- und Motoren AG",
+        "open_projects": 2,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "366",
+        "clientnr": "826",
+        "clientname": "Ammann AG",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "443",
+        "clientnr": "1707",
+        "clientname": "Anticimex AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "316",
+        "clientnr": "1473",
+        "clientname": "Apellis Pharmaceuticals",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 1
+      },
+      {
+        "id": "484",
+        "clientnr": "1795",
+        "clientname": "Arbonia AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "328",
+        "clientnr": "3423",
+        "clientname": "avoag",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "372",
+        "clientnr": "1547",
+        "clientname": "Axians IT&T AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "430",
+        "clientnr": "1676",
+        "clientname": "Bachofen AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "381",
+        "clientnr": "1567",
+        "clientname": "Beatrice Ris",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "403",
+        "clientnr": "xyzNew",
+        "clientname": "Bergrestaurant Uto Staffel",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "317",
+        "clientnr": "979",
+        "clientname": "BERNEXPO AG",
+        "open_projects": 1,
+        "closed_projects": 1,
+        "archived_projects": 1
+      },
+      {
+        "id": "364",
+        "clientnr": "1531",
+        "clientname": "Berufsbeistandschaft Frauenfeld Land (BBFL)",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "479",
+        "clientnr": "1783",
+        "clientname": "BFV GmbH - Pruefstellen",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "517",
+        "clientnr": "5332",
+        "clientname": "Bio Mio Gemüse Abo GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "482",
+        "clientnr": "1829",
+        "clientname": "Bioenergie Frauenfeld AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "313",
+        "clientnr": "40",
+        "clientname": "Biogen Idec Intl GmbH",
+        "open_projects": 3,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "399",
+        "clientnr": "1595",
+        "clientname": "Biomed AG",
+        "open_projects": 0,
+        "closed_projects": 8,
+        "archived_projects": 0
+      },
+      {
+        "id": "439",
+        "clientnr": "new_0002",
+        "clientname": "BiWo Langnau",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "454",
+        "clientnr": "1755",
+        "clientname": "Blaser AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "384",
+        "clientnr": "1244",
+        "clientname": "bluebird bio (Switzerland) GmbH",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "469",
+        "clientnr": "1280",
+        "clientname": "Blättler Holzbau GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 1
+      },
+      {
+        "id": "350",
+        "clientnr": "1519",
+        "clientname": "Bouyges E&S InTec Schweiz AG",
+        "open_projects": 0,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "455",
+        "clientnr": "1588",
+        "clientname": "BPA Treuhand GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "516",
+        "clientnr": "1884",
+        "clientname": "Braunwald-Standseilbahn AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "488",
+        "clientnr": "1804",
+        "clientname": "bsb",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "331",
+        "clientnr": "1017",
+        "clientname": "Bundesamt für Gesundheit",
+        "open_projects": 10,
+        "closed_projects": 19,
+        "archived_projects": 0
+      },
+      {
+        "id": "333",
+        "clientnr": "622",
+        "clientname": "Bühler AG",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "418",
+        "clientnr": "1631",
+        "clientname": "Bäckerei Fleischli",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "473",
+        "clientnr": "1787",
+        "clientname": "Caleco AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "312",
+        "clientnr": "830",
+        "clientname": "Careum",
+        "open_projects": 4,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "410",
+        "clientnr": "1127",
+        "clientname": "Caritas Switzerland",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "427",
+        "clientnr": "1655",
+        "clientname": "Carrosserie G&G AG ",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "355",
+        "clientnr": "1348",
+        "clientname": "Central Praxis Dr. med. M. Dolder",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "375",
+        "clientnr": "12322",
+        "clientname": "CEREX",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "468",
+        "clientnr": "644",
+        "clientname": "Chaine du Bonheur",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "480",
+        "clientnr": "1814",
+        "clientname": "Clever Sports AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "437",
+        "clientnr": "1182",
+        "clientname": "Custodio",
+        "open_projects": 1,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "412",
+        "clientnr": "1618",
+        "clientname": "DACHCOM.CH AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "453",
+        "clientnr": "1749",
+        "clientname": "Daniel Sprenger",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "289",
+        "clientnr": "648",
+        "clientname": "DeKa Gastronomie Treuhand AG",
+        "open_projects": 2,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "288",
+        "clientnr": "1013",
+        "clientname": "DELTAgroup Management",
+        "open_projects": 1,
+        "closed_projects": 8,
+        "archived_projects": 2
+      },
+      {
+        "id": "393",
+        "clientnr": "xx1234",
+        "clientname": "Derendingen",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "323",
+        "clientnr": "zyzyzy",
+        "clientname": "DSM Nutritional Products Holding AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "334",
+        "clientnr": "636",
+        "clientname": "eCapital Management AG",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "522",
+        "clientnr": "new_edimex",
+        "clientname": "Edimex Services AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "378",
+        "clientnr": "1556",
+        "clientname": "Elektrokontrollen Schweiz AG",
+        "open_projects": 0,
+        "closed_projects": 5,
+        "archived_projects": 0
+      },
+      {
+        "id": "506",
+        "clientnr": "34235",
+        "clientname": "EMS Chemie",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "335",
+        "clientnr": "624",
+        "clientname": "Endress+Hauser Flowtec AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "502",
+        "clientnr": "45673",
+        "clientname": "Ernst Schweizer AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "483",
+        "clientnr": "1841",
+        "clientname": "ESAG AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "365",
+        "clientnr": "1538",
+        "clientname": "Etavis AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "477",
+        "clientnr": "1799",
+        "clientname": "Eugster / Frismag AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "291",
+        "clientnr": "1",
+        "clientname": "exact construct GmbH",
+        "open_projects": 2,
+        "closed_projects": 83,
+        "archived_projects": 4
+      },
+      {
+        "id": "398",
+        "clientnr": "EF",
+        "clientname": "exactfinance",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "436",
+        "clientnr": "654",
+        "clientname": "Faserplast AG",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "524",
+        "clientnr": "1909",
+        "clientname": "Femo Gebäudereinigung GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "520",
+        "clientnr": "f_0001",
+        "clientname": "Feuerwehr Weinfelden",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "487",
+        "clientnr": "1838",
+        "clientname": "FILTRACON",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "485",
+        "clientnr": "18",
+        "clientname": "Finaxiom AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "428",
+        "clientnr": "x210520",
+        "clientname": "Flughafen Bern AG – Bern Airport",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "440",
+        "clientnr": "1705",
+        "clientname": "foreveryoungTOURS GmbH",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "318",
+        "clientnr": "1499",
+        "clientname": "Furrer+Frey AG",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 1
+      },
+      {
+        "id": "336",
+        "clientnr": "1081",
+        "clientname": "GBL Gemeinnützige Baugenossenschaft Limmattal",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "290",
+        "clientnr": "723",
+        "clientname": "GEHRING CUT AG",
+        "open_projects": 0,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "358",
+        "clientnr": "1350",
+        "clientname": "GFO Unternehmensberatung",
+        "open_projects": 1,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "337",
+        "clientnr": "963",
+        "clientname": "Glarner Krankenversicherung",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "434",
+        "clientnr": "4568",
+        "clientname": "Grünenthal Pharma AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "446",
+        "clientnr": "1698",
+        "clientname": "Heinzmann Consulting",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "419",
+        "clientnr": "1633",
+        "clientname": "HEW AG",
+        "open_projects": 1,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "359",
+        "clientnr": "xxxx",
+        "clientname": "Hollinger Rolf",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "380",
+        "clientnr": "****",
+        "clientname": "HSLU",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "369",
+        "clientnr": "1541",
+        "clientname": "HTM Concepts AG",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "330",
+        "clientnr": "22",
+        "clientname": "Huusarztpraxis FRÜEBLI",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "475",
+        "clientnr": "1794",
+        "clientname": "Härz AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "445",
+        "clientnr": "1712",
+        "clientname": "IBP Institut",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "338",
+        "clientnr": "1329",
+        "clientname": "icotec ag",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "339",
+        "clientnr": "1080",
+        "clientname": "Ideal Payment AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "361",
+        "clientnr": "999",
+        "clientname": "Implenia",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "402",
+        "clientnr": "1605",
+        "clientname": "ImpulsKompass GmbH",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "292",
+        "clientnr": "786",
+        "clientname": "ISS Facility Services AG",
+        "open_projects": 0,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "504",
+        "clientnr": "abcxxx1",
+        "clientname": "Ivano Bumann",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "405",
+        "clientnr": "1222",
+        "clientname": "IVF HARTMANN AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "347",
+        "clientnr": "1202",
+        "clientname": "Jota AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "408",
+        "clientnr": "XXXXXKBS",
+        "clientname": "Kanton Basel-Stadt",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "433",
+        "clientnr": "1681",
+        "clientname": "Kanton St. Gallen",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "324",
+        "clientnr": "907",
+        "clientname": "Kanton Thurgau",
+        "open_projects": 5,
+        "closed_projects": 31,
+        "archived_projects": 0
+      },
+      {
+        "id": "377",
+        "clientnr": "XXXXXXC",
+        "clientname": "Kantonsspital Luzern",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "465",
+        "clientnr": "1772",
+        "clientname": "Kantonsspital St. Gallen",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "429",
+        "clientnr": "1671",
+        "clientname": "KENWOOD SWISS AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "367",
+        "clientnr": "XXXXXX",
+        "clientname": "Kredifina AG",
+        "open_projects": 0,
+        "closed_projects": 5,
+        "archived_projects": 0
+      },
+      {
+        "id": "363",
+        "clientnr": "10304",
+        "clientname": "Kunde A",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 1
+      },
+      {
+        "id": "349",
+        "clientnr": "xxx191219",
+        "clientname": "KV-Media",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "451",
+        "clientnr": "1005",
+        "clientname": "Küng Logistik-Center AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "416",
+        "clientnr": "1624",
+        "clientname": "Lamprecht Pflanzen AG",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "515",
+        "clientnr": "LAYHER_001",
+        "clientname": "Layher Bautechnik GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "456",
+        "clientnr": "1725",
+        "clientname": "Lehrreich Wilmersdorf",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "406",
+        "clientnr": "xxcvs",
+        "clientname": "Lian Chinaherb",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "309",
+        "clientnr": "1011",
+        "clientname": "Lidl Schweiz AG",
+        "open_projects": 5,
+        "closed_projects": 24,
+        "archived_projects": 1
+      },
+      {
+        "id": "374",
+        "clientnr": "1536",
+        "clientname": "Lidl Österreich GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "444",
+        "clientnr": "1709",
+        "clientname": "Linz Partner AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "351",
+        "clientnr": "xxxx321",
+        "clientname": "LIVIT",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "322",
+        "clientnr": "1287",
+        "clientname": "Logicare",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "423",
+        "clientnr": "1640",
+        "clientname": "Lohmann & Rauscher AG",
+        "open_projects": 0,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "396",
+        "clientnr": "1354",
+        "clientname": "Lumentum Switzerland AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "340",
+        "clientnr": "11",
+        "clientname": "Lyreco Switzerland AG",
+        "open_projects": 0,
+        "closed_projects": 15,
+        "archived_projects": 0
+      },
+      {
+        "id": "457",
+        "clientnr": "123_new_123",
+        "clientname": "m2apla gmbh",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "348",
+        "clientnr": "1004",
+        "clientname": "Maison Mollerus AG",
+        "open_projects": 0,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "474",
+        "clientnr": "1792",
+        "clientname": "Massage Medein Musik",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "511",
+        "clientnr": "xyzxenon",
+        "clientname": "Medizinisches Zentrum VIVA AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "523",
+        "clientnr": "x123New",
+        "clientname": "medlab",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "397",
+        "clientnr": "XXXX1",
+        "clientname": "Mensarius",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "470",
+        "clientnr": "1780",
+        "clientname": "MicroBios AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "385",
+        "clientnr": "695",
+        "clientname": "MODE KOFLER AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "519",
+        "clientnr": "1899",
+        "clientname": "MSD Grosse",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "395",
+        "clientnr": "1590",
+        "clientname": "MV Invest AG",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "306",
+        "clientnr": "1175",
+        "clientname": "Müller Martini",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 2
+      },
+      {
+        "id": "417",
+        "clientnr": "1396",
+        "clientname": "Mütter- und Väterberatung",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "376",
+        "clientnr": "xxxxxxxxx",
+        "clientname": "Netfon Solutions AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "441",
+        "clientnr": "new_002",
+        "clientname": "New Client A",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "321",
+        "clientnr": "XXXXX",
+        "clientname": "NOBODY's CLIENT",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "387",
+        "clientnr": "938",
+        "clientname": "O. Küttel AG",
+        "open_projects": 1,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "314",
+        "clientnr": "1000700",
+        "clientname": "Ochsner Consulting GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "450",
+        "clientnr": "1716",
+        "clientname": "OdA GS thurgau",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "414",
+        "clientnr": "1310",
+        "clientname": "Orior",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "311",
+        "clientnr": "1024",
+        "clientname": "OSIV Solution Center",
+        "open_projects": 2,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "308",
+        "clientnr": "665",
+        "clientname": "Oswald GmbH",
+        "open_projects": 1,
+        "closed_projects": 8,
+        "archived_projects": 0
+      },
+      {
+        "id": "394",
+        "clientnr": "XXXXXXP",
+        "clientname": "Paul Reinhart AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "486",
+        "clientnr": "1834",
+        "clientname": "Performa",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "345",
+        "clientnr": "1002",
+        "clientname": "persona services GmbH",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "320",
+        "clientnr": "653",
+        "clientname": "Peter R. Iltgen Vermögensverwaltung AG",
+        "open_projects": 0,
+        "closed_projects": 7,
+        "archived_projects": 0
+      },
+      {
+        "id": "508",
+        "clientnr": "new12345",
+        "clientname": "Pistor",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "510",
+        "clientnr": "1047",
+        "clientname": "Pistor AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "518",
+        "clientnr": "1302",
+        "clientname": "Praxis für Lösungsorientierte Beratung, LoB",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "462",
+        "clientnr": "1766 ",
+        "clientname": "praxisplan GmbH",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "458",
+        "clientnr": "001745",
+        "clientname": "Previs Vorsorge",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "447",
+        "clientnr": "1717",
+        "clientname": "Psychiatrische Universitätsklinik Zürich",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "346",
+        "clientnr": "1285",
+        "clientname": "Qualitech",
+        "open_projects": 0,
+        "closed_projects": 5,
+        "archived_projects": 0
+      },
+      {
+        "id": "449",
+        "clientnr": "1731",
+        "clientname": "R hoch 2 AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "360",
+        "clientnr": "587",
+        "clientname": "R. Nussbaum AG",
+        "open_projects": 2,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "472",
+        "clientnr": "549",
+        "clientname": "Red Bull",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "415",
+        "clientnr": "x007x",
+        "clientname": "REDILO",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "501",
+        "clientnr": "abcxxx",
+        "clientname": "Rieder AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "471",
+        "clientnr": "1264",
+        "clientname": "RWD Schlatter AG",
+        "open_projects": 1,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "503",
+        "clientnr": "x999",
+        "clientname": "Salchli + Willi AG",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "315",
+        "clientnr": "642",
+        "clientname": "Sateco AG",
+        "open_projects": 2,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "341",
+        "clientnr": "706",
+        "clientname": "SBB",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "512",
+        "clientnr": "SBPV123",
+        "clientname": "SBPV",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "425",
+        "clientnr": "1646",
+        "clientname": "Schloss-Garage Winterthur",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "424",
+        "clientnr": "xxx202104",
+        "clientname": "Schloss-Garage Winterthur AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "507",
+        "clientnr": "34232323",
+        "clientname": "Schlosserei Andreas Rohrer AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "327",
+        "clientnr": "550",
+        "clientname": "Schmid energy solutions",
+        "open_projects": 0,
+        "closed_projects": 8,
+        "archived_projects": 0
+      },
+      {
+        "id": "404",
+        "clientnr": "24122",
+        "clientname": "schweizerische eidgenossenschaft",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "310",
+        "clientnr": "1063",
+        "clientname": "Schweizerischer Kaderverband SKV",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "388",
+        "clientnr": "NK-001",
+        "clientname": "SEB Professional",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "357",
+        "clientnr": "1281",
+        "clientname": "Seelandheim AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "497",
+        "clientnr": "12012023",
+        "clientname": "Seerettung Uster",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "326",
+        "clientnr": "1290",
+        "clientname": "Siedlungsgenossenschaft Sunnige Hof",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "352",
+        "clientnr": "1345",
+        "clientname": "Signode Industrial Group GmbH",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "435",
+        "clientnr": "1688",
+        "clientname": "Spital Thurgau",
+        "open_projects": 1,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "459",
+        "clientnr": "1664",
+        "clientname": "Stadt Bern",
+        "open_projects": 0,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "325",
+        "clientnr": "1484",
+        "clientname": "Stadt St. Gallen",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "342",
+        "clientnr": "1154",
+        "clientname": "Stadt Zürich (Schule Letzi)",
+        "open_projects": 1,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "438",
+        "clientnr": "stadt_xxxx",
+        "clientname": "Stadt Zürich (Stadtpolizei)",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "407",
+        "clientnr": "1608",
+        "clientname": "Stiftung Blutspendezentrum SRK beider Basel",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "379",
+        "clientnr": "575",
+        "clientname": "streulicreations GmbH",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "463",
+        "clientnr": "1767",
+        "clientname": "Sunnen AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "460",
+        "clientnr": "1760",
+        "clientname": "Swiss Office Concept AG",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 1
+      },
+      {
+        "id": "354",
+        "clientnr": "1440",
+        "clientname": "Swiss Steel Doors AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "514",
+        "clientnr": "sk0001",
+        "clientname": "Swisskalk GmbH",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "422",
+        "clientnr": "xxxxxx1",
+        "clientname": "swissplan",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "401",
+        "clientnr": "768",
+        "clientname": "Taxi Ernst Hess AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "370",
+        "clientnr": "x",
+        "clientname": "Tegulas GmbH",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "362",
+        "clientnr": "x200214",
+        "clientname": "Temp new client",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "499",
+        "clientnr": "1221",
+        "clientname": "Terresta Immobilien- und Verwaltungs AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "505",
+        "clientnr": "001851",
+        "clientname": "terzStiftung",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "391",
+        "clientnr": "2020",
+        "clientname": "test client",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "386",
+        "clientnr": "1578",
+        "clientname": "toolsuisse AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "448",
+        "clientnr": "1723",
+        "clientname": "TPK Treuhand GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "411",
+        "clientnr": "1543",
+        "clientname": "Tratus AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "521",
+        "clientnr": "23423",
+        "clientname": "Trevista Treuhand- und Revisionsgesellschaft AG",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "383",
+        "clientnr": "663",
+        "clientname": "Trygonal Schweiz AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "421",
+        "clientnr": "1635",
+        "clientname": "Universität Zürich",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "431",
+        "clientnr": "1679",
+        "clientname": "Valmira Emini",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "409",
+        "clientnr": "7",
+        "clientname": "vantage Global Event Production GmbH",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "319",
+        "clientnr": "1343",
+        "clientname": "Verein IGSU",
+        "open_projects": 0,
+        "closed_projects": 3,
+        "archived_projects": 0
+      },
+      {
+        "id": "413",
+        "clientnr": "39",
+        "clientname": "Verein PRS PET-Recycling Schweiz",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "513",
+        "clientnr": "1qwerty",
+        "clientname": "Vereinigte Milchbauern Mitte-Ost VMMO",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "356",
+        "clientnr": "900",
+        "clientname": "Verschlusstechnik Schweiz GmbH",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "478",
+        "clientnr": "1796",
+        "clientname": "Vialumina Efortis",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "294",
+        "clientnr": "1020",
+        "clientname": "Victorinox AG",
+        "open_projects": 2,
+        "closed_projects": 4,
+        "archived_projects": 0
+      },
+      {
+        "id": "442",
+        "clientnr": "1703",
+        "clientname": "Viva Spitex",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "481",
+        "clientnr": "WS_0001",
+        "clientname": "W. Schneider+Co AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "371",
+        "clientnr": "1194",
+        "clientname": "Wassermann & Company AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "343",
+        "clientnr": "1327",
+        "clientname": "Winterhalter + Fenner AG",
+        "open_projects": 0,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "452",
+        "clientnr": "1747",
+        "clientname": "WITECH MASCHINEN AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "464",
+        "clientnr": "1774",
+        "clientname": "Witzig Alteco Digital Services AG",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "461",
+        "clientnr": "1765",
+        "clientname": "Wolfgang Seeger",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "466",
+        "clientnr": "1750",
+        "clientname": "womanifest AG",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "382",
+        "clientnr": "1573",
+        "clientname": "Zeochem",
+        "open_projects": 5,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "476",
+        "clientnr": "1802",
+        "clientname": "Zurich Tourismus",
+        "open_projects": 0,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "373",
+        "clientnr": "1545",
+        "clientname": "Ärztehaus Seen AG",
+        "open_projects": 0,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "489",
+        "clientnr": "9991",
+        "clientname": "_1_Marketing",
+        "open_projects": 5,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "490",
+        "clientnr": "9992",
+        "clientname": "_2_Accounting",
+        "open_projects": 5,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "491",
+        "clientnr": "9993",
+        "clientname": "_3_HR and Management",
+        "open_projects": 11,
+        "closed_projects": 0,
+        "archived_projects": 1
+      },
+      {
+        "id": "492",
+        "clientnr": "9994",
+        "clientname": "_4_Holidays and Absences",
+        "open_projects": 4,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "493",
+        "clientnr": "9995",
+        "clientname": "_5_Training",
+        "open_projects": 6,
+        "closed_projects": 2,
+        "archived_projects": 0
+      },
+      {
+        "id": "494",
+        "clientnr": "9996",
+        "clientname": "_6_Process Optimization",
+        "open_projects": 13,
+        "closed_projects": 1,
+        "archived_projects": 0
+      },
+      {
+        "id": "495",
+        "clientnr": "9997",
+        "clientname": "_7_Exactflow",
+        "open_projects": 1,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "496",
+        "clientnr": "9998",
+        "clientname": "_8_Exactfinance",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      },
+      {
+        "id": "498",
+        "clientnr": "9999",
+        "clientname": "_9_Personal Setup",
+        "open_projects": 2,
+        "closed_projects": 0,
+        "archived_projects": 0
+      }
+    ],
+    "projectStatusCount": [
+      {
+        "total_projects": 625,
+        "open_projects": 160,
+        "closed_projects": 449,
+        "archived_projects": 16
+      }
+    ]
+  }
+}

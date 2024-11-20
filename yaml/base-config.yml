@@ -1,0 +1,151 @@
+# ===============================
+# Cache
+# ===============================
+cache: &global_cache
+  key: "$CI_COMMIT_REF_NAME"
+  paths:
+    - client/node_modules/
+    - server/node_modules/
+
+# ===============================
+# Base Configuration
+# ===============================
+
+# GENERATE CHANGELOGS
+.changelog:
+  stage: changelog
+  script:
+    - node ./yaml/script/generate_releaserc.js
+    - semantic-release
+
+# INSTALL CLIENT NODE MODULES
+.install_client:
+  stage: setup
+  script:
+    - cd client && CI=false pnpm install
+  cache:
+    <<: *global_cache
+    policy: pull-push
+    # when: on_success
+.install_client_legacy:
+  stage: setup
+  script:
+    - cd client && CI=false pnpm install
+  cache:
+    <<: *global_cache
+    policy: pull-push
+    # when: on_success
+
+# INSTALL SERVER NODE MODULES
+.install_server:
+  stage: setup
+  script:
+    - cd server && CI=false pnpm install
+  cache:
+    <<: *global_cache
+    policy: pull-push
+    # when: on_success
+.install_server_legacy:
+  stage: setup
+  script:
+    - cd server && CI=false pnpm install
+  cache:
+    <<: *global_cache
+    policy: pull-push
+    # when: on_success
+
+# FLUSH DATABASE
+.database_setup:
+  stage: setup
+  script:
+    - cd ./server
+    - pnpm run db-flush
+  cache:
+    <<: *global_cache
+    policy: pull
+
+# MIGRATE DATABASE
+.database_migrate:
+  stage: build
+  script:
+    - cd ./server
+    - pnpm run db:create
+    - pnpm run db:migrate
+    - pnpm run db:seed
+  cache:
+    <<: *global_cache
+    policy: pull
+
+# BUILD CLIENT
+.build_client:
+  stage: build
+  script:
+    - cd ./client;
+    - pnpm run build-debug
+    - base_dir="$PROJECT_DIR/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME/client"
+    - build_dir="$base_dir/dist"
+    - backup_dir="$base_dir/dist_backup"
+    - |
+      if [ -d "$build_dir" ]; then
+        echo "Backup old build..."
+        # check if existing backup build
+        if [ -d "$backup_dir" ]; then
+          echo "Old backup found, deleting..."
+          sudo rm -R "$backup_dir"
+        else
+          echo "No old backup found, proceeding..."
+        fi
+        # Rename the build folder
+        sudo mv "$build_dir" "$backup_dir"
+        echo "Build folder renamed to $backup_dir"
+      else
+        echo "Build folder not found in $base_dir"
+      fi
+
+  cache:
+    <<: *global_cache
+    policy: pull
+  artifacts:
+    paths:
+      - client/dist/
+
+# COPY FILES TO DIRECTORY THEN RUN SCRIPTS AND START BACKEND SERVER
+.deploy:
+  stage: deploy
+  script:
+    # - sudo pkill -f chrome
+    - set -euo pipefail
+    # Setting vars for folder locations
+    - app_dir="$PROJECT_DIR/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME"
+    - migrations_dir="$app_dir/server/database/migrations"
+    - seeders_dir="$app_dir/server/database/seeders"
+    - pdf_output_dir="$app_dir/server/app/pdf/output"
+    - data_dir="$app_dir/server/app/data"
+    - translations_dir="$app_dir/server/app/translations"
+    #- backups_dir="$app_dir/server/database/backups"
+    - logs_dir="$app_dir/server/logs"
+    # Remove old migration and seeder files, Copy new files to the app directory, Set appropriate permissions on directories, Remove temporary files
+    - sudo rm -rf "$migrations_dir" "$seeders_dir"
+    - sudo cp -rf ./* "$app_dir"
+    - sudo chmod -R 777 "$pdf_output_dir" "$data_dir" "$translations_dir" "$logs_dir"
+    - sudo rm -rf ./*
+    # Change directory to the app directory, Start the app with pm2
+    - cd "$app_dir/server"
+    - pm2 start ./bin/www --name="project_p" -f
+    - pm2 save
+  cache:
+    <<: *global_cache
+    policy: pull
+
+# SETUP DOMAIN CONFIGURATION (NGINX)
+.domain_setup:
+  stage: domain
+  script:
+    - set +e
+    - sudo cp $PROJECT_DIR/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME/server/nginx/$CI_PROJECT_NAME-$CI_COMMIT_REF_NAME /etc/nginx/sites-available/
+    - sudo ln -s /etc/nginx/sites-available/$CI_PROJECT_NAME-$CI_COMMIT_REF_NAME /etc/nginx/sites-enabled
+    - sudo systemctl reload nginx || EXIT_CODE=$?
+    - exit $EXIT_CODE
+  cache:
+    <<: *global_cache
+    policy: pull

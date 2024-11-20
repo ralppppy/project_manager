@@ -1,0 +1,67 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+/server/public/files
+/server/public/images
+# misc
+.DS_Store
+server/.env.localhost
+server/.env.development
+server/.env.staging
+server/.env.production
+server/.env.predevelopment
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+#ignore client build
+client/build
+
+#ignore logs
+server/logs/access/*
+server/logs/error/*
+
+#keep logs folder
+!server/logs/access/.ignore
+!server/logs/error/.ignore
+
+#ignore db backups
+server/database/backups/daily/*
+server/database/backups/monthly/*
+server/database/backups/weekly/*
+server/database/backups/yearly/*
+
+#keep database/backups folder
+!server/database/backups/daily/.ignore
+!server/database/backups/monthly/.ignore
+!server/database/backups/weekly/.ignore
+!server/database/backups/yearly/.ignore

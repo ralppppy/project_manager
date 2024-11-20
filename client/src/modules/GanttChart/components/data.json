@@ -1,0 +1,2480 @@
+[
+  {
+    "id": "20170015",
+    "name": "Bryan Pineda",
+    "sort": 0,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "20207",
+        "proj_id": 20496,
+        "proj_name": "Research: Most current technologies/features",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "16:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "31991",
+        "proj_id": 20615,
+        "proj_name": "Zeitmonitoring",
+        "client_id": 331,
+        "clientname": "Bundesamt für Gesundheit",
+        "total_time_estimate": null,
+        "open_status": 0,
+        "question_status": 1,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "33849",
+        "proj_id": 20631,
+        "proj_name": "Quality Assurance Testing",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "24:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 67
+      },
+      {
+        "id": "34847",
+        "proj_id": 20659,
+        "proj_name": "Employee Training and Development",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "08:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "39228",
+        "proj_id": 20697,
+        "proj_name": "Cockpit IKT",
+        "client_id": 331,
+        "clientname": "Bundesamt für Gesundheit",
+        "total_time_estimate": "107:30",
+        "open_status": 21,
+        "question_status": 1,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "39690",
+        "proj_id": 20702,
+        "proj_name": "Python-Support",
+        "client_id": 522,
+        "clientname": "Edimex Services AG",
+        "total_time_estimate": null,
+        "open_status": 0,
+        "question_status": 1,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20430",
+        "points": [
+          {
+            "id": "27608"
+          }
+        ]
+      },
+      {
+        "id": "20496",
+        "points": [
+          {
+            "id": "37236"
+          },
+          {
+            "id": "39049"
+          }
+        ]
+      },
+      {
+        "id": "20631",
+        "points": [
+          {
+            "id": "38084"
+          },
+          {
+            "id": "38334"
+          },
+          {
+            "id": "39067"
+          },
+          {
+            "id": "39069"
+          },
+          {
+            "id": "39355"
+          },
+          {
+            "id": "39357"
+          },
+          {
+            "id": "39068"
+          },
+          {
+            "id": "39356"
+          }
+        ]
+      },
+      {
+        "id": "20659",
+        "points": [
+          {
+            "id": "38086"
+          }
+        ]
+      },
+      {
+        "id": "20697",
+        "points": [
+          {
+            "id": "39343"
+          },
+          {
+            "id": "39344"
+          },
+          {
+            "id": "39345"
+          },
+          {
+            "id": "39370"
+          },
+          {
+            "id": "39768"
+          },
+          {
+            "id": "39827"
+          },
+          {
+            "id": "39982"
+          },
+          {
+            "id": "39984"
+          },
+          {
+            "id": "39985"
+          },
+          {
+            "id": "39988"
+          },
+          {
+            "id": "39990"
+          },
+          {
+            "id": "39991"
+          },
+          {
+            "id": "39992"
+          },
+          {
+            "id": "39993"
+          },
+          {
+            "id": "39994"
+          },
+          {
+            "id": "39995"
+          },
+          {
+            "id": "39996"
+          },
+          {
+            "id": "39998"
+          },
+          {
+            "id": "39999"
+          },
+          {
+            "id": "40000"
+          },
+          {
+            "id": "40001"
+          },
+          {
+            "id": "40007"
+          }
+        ]
+      },
+      {
+        "id": "20702",
+        "points": [
+          {
+            "id": "39690"
+          }
+        ]
+      },
+      {
+        "id": "20615",
+        "points": [
+          {
+            "id": "39770"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170070",
+    "name": "Burt Achame",
+    "sort": 2,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "11431",
+        "proj_id": 20035,
+        "proj_name": "Dashboard",
+        "client_id": 289,
+        "clientname": "DeKa Gastronomie Treuhand AG",
+        "total_time_estimate": "03:30",
+        "open_status": 4,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "4854",
+        "proj_id": 20189,
+        "proj_name": "FAKT ONLINE",
+        "client_id": 311,
+        "clientname": "OSIV Solution Center",
+        "total_time_estimate": "02:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "33993",
+        "proj_id": 20631,
+        "proj_name": "Quality Assurance Testing",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "33:00",
+        "open_status": 5,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "37510",
+        "proj_id": 20668,
+        "proj_name": "Auswertungstool für Befragungen_internal",
+        "client_id": 505,
+        "clientname": "terzStiftung",
+        "total_time_estimate": "03:30",
+        "open_status": 5,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20035",
+        "points": [
+          {
+            "id": "34857"
+          },
+          {
+            "id": "38912"
+          },
+          {
+            "id": "38916"
+          },
+          {
+            "id": "38917"
+          },
+          {
+            "id": "38918"
+          },
+          {
+            "id": "38914"
+          },
+          {
+            "id": "38911"
+          },
+          {
+            "id": "39522"
+          },
+          {
+            "id": "38915"
+          },
+          {
+            "id": "39724"
+          },
+          {
+            "id": "38709"
+          },
+          {
+            "id": "39723"
+          },
+          {
+            "id": "39963"
+          }
+        ]
+      },
+      {
+        "id": "20631",
+        "points": [
+          {
+            "id": "39069"
+          },
+          {
+            "id": "39068"
+          },
+          {
+            "id": "39357"
+          },
+          {
+            "id": "39355"
+          },
+          {
+            "id": "39356"
+          }
+        ]
+      },
+      {
+        "id": "20668",
+        "points": [
+          {
+            "id": "39729"
+          },
+          {
+            "id": "39902"
+          },
+          {
+            "id": "40008"
+          },
+          {
+            "id": "40009"
+          },
+          {
+            "id": "40010"
+          }
+        ]
+      },
+      {
+        "id": "20189",
+        "points": [
+          {
+            "id": "39951"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170086",
+    "name": "Sharif Yasin",
+    "sort": 2,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "13195",
+        "proj_id": 20316,
+        "proj_name": "SSREI Online Tool_internal",
+        "client_id": 395,
+        "clientname": "MV Invest AG",
+        "total_time_estimate": "22:00",
+        "open_status": 4,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "16470",
+        "proj_id": 20399,
+        "proj_name": "SSREI Online Tool",
+        "client_id": 395,
+        "clientname": "MV Invest AG",
+        "total_time_estimate": "00:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "34850",
+        "proj_id": 20654,
+        "proj_name": "Marketing Activity",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "04:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20654",
+        "points": [
+          {
+            "id": "38652"
+          }
+        ]
+      },
+      {
+        "id": "20253",
+        "points": [
+          {
+            "id": "38660"
+          }
+        ]
+      },
+      {
+        "id": "20685",
+        "points": [
+          {
+            "id": "39381"
+          }
+        ]
+      },
+      {
+        "id": "20316",
+        "points": [
+          {
+            "id": "39643"
+          },
+          {
+            "id": "39807"
+          },
+          {
+            "id": "39808"
+          },
+          {
+            "id": "39869"
+          }
+        ]
+      },
+      {
+        "id": "20399",
+        "points": [
+          {
+            "id": "39719"
+          },
+          {
+            "id": "39721"
+          },
+          {
+            "id": "39761"
+          },
+          {
+            "id": "39908"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170006",
+    "name": "Cristin Julian",
+    "sort": 4,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "36393",
+        "proj_id": 20631,
+        "proj_name": "Quality Assurance Testing",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "10:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "37883",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "04:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20631",
+        "points": [
+          {
+            "id": "39650"
+          },
+          {
+            "id": "39773"
+          }
+        ]
+      },
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "39941"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170072",
+    "name": "JC Valerio",
+    "sort": 6,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "38822",
+        "proj_id": 20593,
+        "proj_name": "Power Query specialization",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "08:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 41
+      },
+      {
+        "id": "38991",
+        "proj_id": 20693,
+        "proj_name": "Gantt-Chart",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "08:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 63
+      }
+    ],
+    "project": [
+      {
+        "id": "20693",
+        "points": [
+          {
+            "id": "38991"
+          }
+        ]
+      },
+      {
+        "id": "20593",
+        "points": [
+          {
+            "id": "39188"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170078",
+    "name": "Kiermar Pawaki",
+    "sort": 8,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "22914",
+        "proj_id": 20498,
+        "proj_name": "Reporting",
+        "client_id": 435,
+        "clientname": "Spital Thurgau",
+        "total_time_estimate": "29:45",
+        "open_status": 6,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "36459",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "12:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "36773",
+        "proj_id": 20677,
+        "proj_name": "Offerte-Design",
+        "client_id": 488,
+        "clientname": "bsb",
+        "total_time_estimate": null,
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "38656"
+          },
+          {
+            "id": "39054"
+          }
+        ]
+      },
+      {
+        "id": "20498",
+        "points": [
+          {
+            "id": "39603"
+          },
+          {
+            "id": "39432"
+          },
+          {
+            "id": "39435"
+          },
+          {
+            "id": "39439"
+          },
+          {
+            "id": "39442"
+          },
+          {
+            "id": "39443"
+          }
+        ]
+      },
+      {
+        "id": "20677",
+        "points": [
+          {
+            "id": "39953"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200117",
+    "name": "Rocelyn Ann Fernandez",
+    "sort": 99,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "33892",
+        "proj_id": 20637,
+        "proj_name": "Offer-Tool (internal project)",
+        "client_id": 488,
+        "clientname": "bsb",
+        "total_time_estimate": "05:30",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "34215",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "18:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38652",
+        "proj_id": 20654,
+        "proj_name": "Marketing Activity",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "04:30",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "34777",
+        "proj_id": 20655,
+        "proj_name": "Praxisplan",
+        "client_id": 462,
+        "clientname": "praxisplan GmbH",
+        "total_time_estimate": "05:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "36251",
+        "proj_id": 20677,
+        "proj_name": "Offerte-Design",
+        "client_id": 488,
+        "clientname": "bsb",
+        "total_time_estimate": null,
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20654",
+        "points": [
+          {
+            "id": "38652"
+          },
+          {
+            "id": "39637"
+          }
+        ]
+      },
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "39376"
+          },
+          {
+            "id": "39695"
+          }
+        ]
+      },
+      {
+        "id": "20655",
+        "points": [
+          {
+            "id": "39565"
+          }
+        ]
+      },
+      {
+        "id": "20677",
+        "points": [
+          {
+            "id": "39955"
+          }
+        ]
+      },
+      {
+        "id": "20637",
+        "points": [
+          {
+            "id": "39932"
+          },
+          {
+            "id": "39964"
+          },
+          {
+            "id": "39977"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200118",
+    "name": "Darlene Oclarit",
+    "sort": 99,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "34158",
+        "proj_id": 20637,
+        "proj_name": "Offer-Tool (internal project)",
+        "client_id": 488,
+        "clientname": "bsb",
+        "total_time_estimate": "05:25",
+        "open_status": 5,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "35830",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "01:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "35776",
+        "proj_id": 20654,
+        "proj_name": "Marketing Activity",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "07:00",
+        "open_status": 4,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "35785",
+        "proj_id": 20668,
+        "proj_name": "Auswertungstool für Befragungen_internal",
+        "client_id": 505,
+        "clientname": "terzStiftung",
+        "total_time_estimate": "05:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "36783",
+        "proj_id": 20677,
+        "proj_name": "Offerte-Design",
+        "client_id": 488,
+        "clientname": "bsb",
+        "total_time_estimate": "02:30",
+        "open_status": 6,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20654",
+        "points": [
+          {
+            "id": "35776"
+          },
+          {
+            "id": "36557"
+          },
+          {
+            "id": "36563"
+          },
+          {
+            "id": "36561"
+          }
+        ]
+      },
+      {
+        "id": "20677",
+        "points": [
+          {
+            "id": "39952"
+          },
+          {
+            "id": "39953"
+          },
+          {
+            "id": "39958"
+          },
+          {
+            "id": "40005"
+          },
+          {
+            "id": "40006"
+          },
+          {
+            "id": "39959"
+          },
+          {
+            "id": "39956"
+          }
+        ]
+      },
+      {
+        "id": "20637",
+        "points": [
+          {
+            "id": "39935"
+          },
+          {
+            "id": "39933"
+          },
+          {
+            "id": "39934"
+          },
+          {
+            "id": "39931"
+          },
+          {
+            "id": "39932"
+          }
+        ]
+      },
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "39975"
+          }
+        ]
+      },
+      {
+        "id": "20668",
+        "points": [
+          {
+            "id": "40002"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200114",
+    "name": "Khristian Palaming",
+    "sort": 99,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "24154",
+        "proj_id": 20105,
+        "proj_name": "MS Office Dev. Training",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "08:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "34873",
+        "proj_id": 20290,
+        "proj_name": "HR-Stuff",
+        "client_id": 491,
+        "clientname": "_3_HR and Management",
+        "total_time_estimate": "06:43",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "29523",
+        "proj_id": 20608,
+        "proj_name": "Process Improvement",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "108:30",
+        "open_status": 21,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "34814",
+        "proj_id": 20659,
+        "proj_name": "Employee Training and Development",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "21:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20659",
+        "points": [
+          {
+            "id": "35013"
+          },
+          {
+            "id": "35014"
+          },
+          {
+            "id": "35015"
+          }
+        ]
+      },
+      {
+        "id": "20608",
+        "points": [
+          {
+            "id": "35018"
+          },
+          {
+            "id": "35019"
+          },
+          {
+            "id": "35020"
+          },
+          {
+            "id": "35032"
+          },
+          {
+            "id": "35033"
+          },
+          {
+            "id": "35035"
+          },
+          {
+            "id": "35036"
+          },
+          {
+            "id": "35037"
+          },
+          {
+            "id": "35038"
+          },
+          {
+            "id": "35741"
+          },
+          {
+            "id": "35742"
+          },
+          {
+            "id": "36015"
+          },
+          {
+            "id": "36571"
+          },
+          {
+            "id": "36572"
+          },
+          {
+            "id": "36573"
+          },
+          {
+            "id": "36574"
+          },
+          {
+            "id": "36575"
+          },
+          {
+            "id": "37829"
+          },
+          {
+            "id": "39286"
+          },
+          {
+            "id": "39811"
+          },
+          {
+            "id": "39818"
+          }
+        ]
+      },
+      {
+        "id": "20290",
+        "points": [
+          {
+            "id": "37470"
+          }
+        ]
+      },
+      {
+        "id": "20105",
+        "points": [
+          {
+            "id": "39215"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200122",
+    "name": "Reynaldo Lamata",
+    "sort": 99,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "34922",
+        "proj_id": 20053,
+        "proj_name": "project-p 3.0",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "04:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 1,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "29666",
+        "proj_id": 20465,
+        "proj_name": "BVG-Tool (Kundenprojekt)",
+        "client_id": 288,
+        "clientname": "DELTAgroup Management",
+        "total_time_estimate": null,
+        "open_status": 0,
+        "question_status": 1,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 8
+      },
+      {
+        "id": "37633",
+        "proj_id": 20683,
+        "proj_name": "Auswertungstool für Befragungen",
+        "client_id": 505,
+        "clientname": "terzStiftung",
+        "total_time_estimate": null,
+        "open_status": 0,
+        "question_status": 2,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 1
+      }
+    ],
+    "project": [
+      {
+        "id": "20465",
+        "points": [
+          {
+            "id": "29661"
+          }
+        ]
+      },
+      {
+        "id": "20053",
+        "points": [
+          {
+            "id": "34922"
+          }
+        ]
+      },
+      {
+        "id": "20683",
+        "points": [
+          {
+            "id": "39408"
+          },
+          {
+            "id": "39423"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200121",
+    "name": "Julie Delguera",
+    "sort": 99,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "25430",
+        "proj_id": 20186,
+        "proj_name": "Payrolltool",
+        "client_id": 491,
+        "clientname": "_3_HR and Management",
+        "total_time_estimate": "13:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "25500",
+        "proj_id": 20287,
+        "proj_name": "Bookkeeping",
+        "client_id": 490,
+        "clientname": "_2_Accounting",
+        "total_time_estimate": "05:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38011",
+        "proj_id": 20290,
+        "proj_name": "HR-Stuff",
+        "client_id": 491,
+        "clientname": "_3_HR and Management",
+        "total_time_estimate": "03:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "27725",
+        "proj_id": 20570,
+        "proj_name": "Internal - Finance",
+        "client_id": 490,
+        "clientname": "_2_Accounting",
+        "total_time_estimate": "45:00",
+        "open_status": 12,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20570",
+        "points": [
+          {
+            "id": "38002"
+          },
+          {
+            "id": "38003"
+          },
+          {
+            "id": "38004"
+          },
+          {
+            "id": "38005"
+          },
+          {
+            "id": "38006"
+          },
+          {
+            "id": "38007"
+          },
+          {
+            "id": "38590"
+          },
+          {
+            "id": "38593"
+          },
+          {
+            "id": "38837"
+          },
+          {
+            "id": "38868"
+          },
+          {
+            "id": "39116"
+          },
+          {
+            "id": "39939"
+          }
+        ]
+      },
+      {
+        "id": "20186",
+        "points": [
+          {
+            "id": "38009"
+          },
+          {
+            "id": "38010"
+          }
+        ]
+      },
+      {
+        "id": "20290",
+        "points": [
+          {
+            "id": "38011"
+          }
+        ]
+      },
+      {
+        "id": "20287",
+        "points": [
+          {
+            "id": "38012"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200141",
+    "name": "Nelsa Mae Estioco",
+    "sort": 99,
+    "group": {
+      "id": "2",
+      "name": "MSO Team",
+      "sort": 1
+    },
+    "points": [
+      {
+        "id": "39310",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "12:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "39214",
+        "proj_id": 20650,
+        "proj_name": "Issue Tracker",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "02:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20650",
+        "points": [
+          {
+            "id": "39214"
+          }
+        ]
+      },
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "39969"
+          },
+          {
+            "id": "39972"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170081",
+    "name": "Ralp  Yosores",
+    "sort": 3,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "17056",
+        "proj_id": 20430,
+        "proj_name": "exactflow",
+        "client_id": 495,
+        "clientname": "_7_Exactflow",
+        "total_time_estimate": "20:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "25490",
+        "proj_id": 20568,
+        "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+        "client_id": 462,
+        "clientname": "praxisplan GmbH",
+        "total_time_estimate": "13:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20430",
+        "points": [
+          {
+            "id": "25124"
+          },
+          {
+            "id": "25122"
+          },
+          {
+            "id": "25139"
+          },
+          {
+            "id": "39158"
+          },
+          {
+            "id": "39928"
+          },
+          {
+            "id": "39929"
+          }
+        ]
+      },
+      {
+        "id": "20568",
+        "points": [
+          {
+            "id": "39895"
+          },
+          {
+            "id": "39897"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20170079",
+    "name": "Rusty Troy Ma",
+    "sort": 4,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "1962",
+        "proj_id": 20045,
+        "proj_name": "FAKT ONLINE (Internal Feedback)",
+        "client_id": 311,
+        "clientname": "OSIV Solution Center",
+        "total_time_estimate": "04:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "4494",
+        "proj_id": 20189,
+        "proj_name": "FAKT ONLINE",
+        "client_id": 311,
+        "clientname": "OSIV Solution Center",
+        "total_time_estimate": "01:00",
+        "open_status": 1,
+        "question_status": 1,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "35401",
+        "proj_id": 20253,
+        "proj_name": "Google Ranking Optimization",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "01:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "13758",
+        "proj_id": 20282,
+        "proj_name": "Exactfinance",
+        "client_id": 496,
+        "clientname": "_8_Exactfinance",
+        "total_time_estimate": "03:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "23515",
+        "proj_id": 20544,
+        "proj_name": "DevOps",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "01:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "35405",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "10:00",
+        "open_status": 4,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38983",
+        "proj_id": 20654,
+        "proj_name": "Marketing Activity",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "05:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20189",
+        "points": [
+          {
+            "id": "35718"
+          },
+          {
+            "id": "39904"
+          }
+        ]
+      },
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "38905"
+          },
+          {
+            "id": "39574"
+          },
+          {
+            "id": "39803"
+          },
+          {
+            "id": "38984"
+          }
+        ]
+      },
+      {
+        "id": "20654",
+        "points": [
+          {
+            "id": "38983"
+          },
+          {
+            "id": "39531"
+          }
+        ]
+      },
+      {
+        "id": "20282",
+        "points": [
+          {
+            "id": "39137"
+          },
+          {
+            "id": "39254"
+          }
+        ]
+      },
+      {
+        "id": "20045",
+        "points": [
+          {
+            "id": "39639"
+          },
+          {
+            "id": "39640"
+          }
+        ]
+      },
+      {
+        "id": "20544",
+        "points": [
+          {
+            "id": "39806"
+          }
+        ]
+      },
+      {
+        "id": "20253",
+        "points": [
+          {
+            "id": "38660"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200103",
+    "name": "Rex Villa",
+    "sort": 5,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "20180",
+        "proj_id": 20430,
+        "proj_name": "exactflow",
+        "client_id": 495,
+        "clientname": "_7_Exactflow",
+        "total_time_estimate": "24:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "31903",
+        "proj_id": 20572,
+        "proj_name": "Arbeitszeitkontrolle",
+        "client_id": 392,
+        "clientname": "2B-Visions AG",
+        "total_time_estimate": "03:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38252",
+        "proj_id": 20685,
+        "proj_name": "Sales Planning Tool 2.0",
+        "client_id": 382,
+        "clientname": "Zeochem",
+        "total_time_estimate": "06:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20572",
+        "points": [
+          {
+            "id": "37214"
+          },
+          {
+            "id": "39225"
+          }
+        ]
+      },
+      {
+        "id": "20430",
+        "points": [
+          {
+            "id": "39155"
+          },
+          {
+            "id": "39161"
+          },
+          {
+            "id": "39898"
+          }
+        ]
+      },
+      {
+        "id": "20685",
+        "points": [
+          {
+            "id": "39794"
+          },
+          {
+            "id": "39974"
+          },
+          {
+            "id": "39976"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200107",
+    "name": "Roven Arcilla",
+    "sort": 5,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "23187",
+        "proj_id": 20035,
+        "proj_name": "Dashboard",
+        "client_id": 289,
+        "clientname": "DeKa Gastronomie Treuhand AG",
+        "total_time_estimate": "128:50",
+        "open_status": 11,
+        "question_status": 2,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38253",
+        "proj_id": 20685,
+        "proj_name": "Sales Planning Tool 2.0",
+        "client_id": 382,
+        "clientname": "Zeochem",
+        "total_time_estimate": "06:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20035",
+        "points": [
+          {
+            "id": "31709"
+          },
+          {
+            "id": "33048"
+          },
+          {
+            "id": "38911"
+          },
+          {
+            "id": "38912"
+          },
+          {
+            "id": "38914"
+          },
+          {
+            "id": "38915"
+          },
+          {
+            "id": "38916"
+          },
+          {
+            "id": "38917"
+          },
+          {
+            "id": "38918"
+          },
+          {
+            "id": "39522"
+          },
+          {
+            "id": "39724"
+          },
+          {
+            "id": "39638"
+          },
+          {
+            "id": "39523"
+          }
+        ]
+      },
+      {
+        "id": "20685",
+        "points": [
+          {
+            "id": "39035"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200105",
+    "name": "Ayzal Abdulwahid",
+    "sort": 6,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "19009",
+        "proj_id": 20069,
+        "proj_name": "Web Trainings",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "08:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "28023",
+        "proj_id": 20399,
+        "proj_name": "SSREI Online Tool",
+        "client_id": 395,
+        "clientname": "MV Invest AG",
+        "total_time_estimate": "28:30",
+        "open_status": 19,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "20579",
+        "proj_id": 20430,
+        "proj_name": "exactflow",
+        "client_id": 495,
+        "clientname": "_7_Exactflow",
+        "total_time_estimate": "08:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "24418",
+        "proj_id": 20544,
+        "proj_name": "DevOps",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "05:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20544",
+        "points": [
+          {
+            "id": "37650"
+          },
+          {
+            "id": "39579"
+          }
+        ]
+      },
+      {
+        "id": "20430",
+        "points": [
+          {
+            "id": "39166"
+          }
+        ]
+      },
+      {
+        "id": "20069",
+        "points": [
+          {
+            "id": "39602"
+          }
+        ]
+      },
+      {
+        "id": "20399",
+        "points": [
+          {
+            "id": "39907"
+          },
+          {
+            "id": "39909"
+          },
+          {
+            "id": "39910"
+          },
+          {
+            "id": "39911"
+          },
+          {
+            "id": "39912"
+          },
+          {
+            "id": "39913"
+          },
+          {
+            "id": "39914"
+          },
+          {
+            "id": "39915"
+          },
+          {
+            "id": "39916"
+          },
+          {
+            "id": "39917"
+          },
+          {
+            "id": "39918"
+          },
+          {
+            "id": "39919"
+          },
+          {
+            "id": "39920"
+          },
+          {
+            "id": "39921"
+          },
+          {
+            "id": "39922"
+          },
+          {
+            "id": "39923"
+          },
+          {
+            "id": "39908"
+          },
+          {
+            "id": "39925"
+          },
+          {
+            "id": "39926"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200123",
+    "name": "Sitti Shana Maldisa",
+    "sort": 99,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "30039",
+        "proj_id": 20430,
+        "proj_name": "exactflow",
+        "client_id": 495,
+        "clientname": "_7_Exactflow",
+        "total_time_estimate": "20:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "29665",
+        "proj_id": 20568,
+        "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+        "client_id": 462,
+        "clientname": "praxisplan GmbH",
+        "total_time_estimate": "04:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38565",
+        "proj_id": 20654,
+        "proj_name": "Marketing Activity",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "32:00",
+        "open_status": 6,
+        "question_status": 0,
+        "old_open": 1,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20654",
+        "points": [
+          {
+            "id": "36558"
+          },
+          {
+            "id": "36559"
+          },
+          {
+            "id": "36560"
+          },
+          {
+            "id": "36562"
+          },
+          {
+            "id": "36564"
+          },
+          {
+            "id": "38835"
+          }
+        ]
+      },
+      {
+        "id": "20568",
+        "points": [
+          {
+            "id": "38747"
+          },
+          {
+            "id": "39899"
+          }
+        ]
+      },
+      {
+        "id": "20430",
+        "points": [
+          {
+            "id": "39169"
+          },
+          {
+            "id": "39763"
+          },
+          {
+            "id": "39175"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200124",
+    "name": "Grammhiel Eustaquio",
+    "sort": 99,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "29709",
+        "proj_id": 20568,
+        "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+        "client_id": 462,
+        "clientname": "praxisplan GmbH",
+        "total_time_estimate": "12:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20568",
+        "points": [
+          {
+            "id": "39894"
+          },
+          {
+            "id": "39896"
+          },
+          {
+            "id": "40003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200125",
+    "name": "Alvera Principe",
+    "sort": 99,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "29310",
+        "proj_id": 20105,
+        "proj_name": "MS Office Dev. Training",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "38:00",
+        "open_status": 7,
+        "question_status": 0,
+        "old_open": 4,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "29709",
+        "proj_id": 20568,
+        "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+        "client_id": 462,
+        "clientname": "praxisplan GmbH",
+        "total_time_estimate": "05:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "31402",
+        "proj_id": 20572,
+        "proj_name": "Arbeitszeitkontrolle",
+        "client_id": 392,
+        "clientname": "2B-Visions AG",
+        "total_time_estimate": "04:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38684",
+        "proj_id": 20647,
+        "proj_name": "Excel Hilfe",
+        "client_id": 489,
+        "clientname": "_1_Marketing",
+        "total_time_estimate": "16:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20572",
+        "points": [
+          {
+            "id": "37040"
+          }
+        ]
+      },
+      {
+        "id": "20647",
+        "points": [
+          {
+            "id": "38684"
+          },
+          {
+            "id": "38683"
+          }
+        ]
+      },
+      {
+        "id": "20105",
+        "points": [
+          {
+            "id": "39216"
+          },
+          {
+            "id": "39233"
+          },
+          {
+            "id": "39276"
+          },
+          {
+            "id": "39428"
+          },
+          {
+            "id": "39520"
+          },
+          {
+            "id": "39536"
+          },
+          {
+            "id": "39696"
+          }
+        ]
+      },
+      {
+        "id": "20568",
+        "points": [
+          {
+            "id": "39740"
+          },
+          {
+            "id": "40004"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200126",
+    "name": "Ronald Arcilla",
+    "sort": 99,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "23846",
+        "proj_id": 20430,
+        "proj_name": "exactflow",
+        "client_id": 495,
+        "clientname": "_7_Exactflow",
+        "total_time_estimate": "58:00",
+        "open_status": 8,
+        "question_status": 0,
+        "old_open": 1,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "38261",
+        "proj_id": 20685,
+        "proj_name": "Sales Planning Tool 2.0",
+        "client_id": 382,
+        "clientname": "Zeochem",
+        "total_time_estimate": "04:00",
+        "open_status": 2,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20430",
+        "points": [
+          {
+            "id": "25124"
+          },
+          {
+            "id": "25122"
+          },
+          {
+            "id": "25139"
+          },
+          {
+            "id": "27608"
+          },
+          {
+            "id": "37800"
+          },
+          {
+            "id": "39150"
+          },
+          {
+            "id": "39174"
+          },
+          {
+            "id": "39655"
+          }
+        ]
+      },
+      {
+        "id": "20654",
+        "points": [
+          {
+            "id": "36558"
+          },
+          {
+            "id": "36559"
+          },
+          {
+            "id": "36560"
+          },
+          {
+            "id": "36562"
+          },
+          {
+            "id": "36564"
+          },
+          {
+            "id": "36561"
+          },
+          {
+            "id": "36563"
+          },
+          {
+            "id": "36557"
+          }
+        ]
+      },
+      {
+        "id": "20685",
+        "points": [
+          {
+            "id": "39272"
+          },
+          {
+            "id": "39381"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20200130",
+    "name": "Denind Kong",
+    "sort": 99,
+    "group": {
+      "id": "3",
+      "name": "WEB Team",
+      "sort": 2
+    },
+    "points": [
+      {
+        "id": "38967",
+        "proj_id": 20105,
+        "proj_name": "MS Office Dev. Training",
+        "client_id": 493,
+        "clientname": "_5_Training",
+        "total_time_estimate": "16:00",
+        "open_status": 1,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      },
+      {
+        "id": "32896",
+        "proj_id": 20631,
+        "proj_name": "Quality Assurance Testing",
+        "client_id": 494,
+        "clientname": "_6_Process Optimization",
+        "total_time_estimate": "16:00",
+        "open_status": 3,
+        "question_status": 0,
+        "old_open": 0,
+        "old_questions": 0,
+        "order": 99
+      }
+    ],
+    "project": [
+      {
+        "id": "20631",
+        "points": [
+          {
+            "id": "37744"
+          },
+          {
+            "id": "38430"
+          },
+          {
+            "id": "39646"
+          }
+        ]
+      },
+      {
+        "id": "20685",
+        "points": [
+          {
+            "id": "39381"
+          }
+        ]
+      },
+      {
+        "id": "20105",
+        "points": [
+          {
+            "id": "39745"
+          }
+        ]
+      }
+    ]
+  }
+]

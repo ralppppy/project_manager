@@ -1,0 +1,92 @@
+# ===============================
+# Development Runner
+# ===============================
+
+install_client:dev:
+  extends: .install_client
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/"
+      changes:
+        - client/package*.json
+    - exists:
+        - client/node_modules/
+      when: never
+
+install_server:dev:
+  extends: .install_server
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/"
+      changes:
+        - server/package*.json
+    - exists:
+        - server/node_modules/
+      when: never
+
+database_setup:dev:
+  extends: .database_setup
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: ("$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/") && $CI_COMMIT_DESCRIPTION =~ /database_setup_dev/
+
+database_migrate:dev:
+  extends: .database_migrate
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/"
+      allow_failure: true
+      changes:
+        - server/database/migrations/*.js
+        - server/database/seeders/*.js
+
+build_client:dev:
+  extends: .build_client
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/"
+      changes:
+        - client/**/*.{js,html,css,json,jpeg,jpg,png,PNG,JPG,JPEG,svg}
+        - client/{*.js,package*.json}
+
+deploy:dev:
+  extends: .deploy
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/"
+
+domain_setup:dev:
+  extends: .domain_setup
+  tags:
+    - exco-dev
+    - exco-predev
+  after_script:
+    - echo "1" | sudo certbot --nginx --redirect -d $CI_COMMIT_REF_NAME.$CI_PROJECT_NAME.exco-apps.ch
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(^|pre)dev$/"
+      allow_failure: true
+      changes:
+        - server/nginx/*
+
+# ===============================
+# CHANGELOG JOB update 8
+# ===============================
+
+changelog:
+  extends: .changelog
+  tags:
+    - predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME == 'master' || $CI_COMMIT_REF_NAME == 'exactflow-v1'"

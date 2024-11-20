@@ -1,0 +1,82 @@
+# ===============================
+# Demo Runner
+# ===============================
+
+install_client:demo:
+  extends: .install_client
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(demo)/"
+      changes:
+        - client/package*.json
+    - exists:
+        - client/node_modules/
+      when: never
+
+install_server:demo:
+  extends: .install_server
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(demo)/"
+      changes:
+        - server/package*.json
+    - exists:
+        - server/node_modules/
+      when: never
+
+database_setup:demo:
+  extends: .database_setup
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: ("$CI_COMMIT_REF_NAME =~ /(demo)/") && $CI_COMMIT_DESCRIPTION =~ /database_setup_prod/
+
+database_migrate:demo:
+  extends: .database_migrate
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(demo)/"
+      allow_failure: true
+      changes:
+        - server/database/migrations/*.js
+        - server/database/seeders/*.js
+
+build_client:demo:
+  extends: .build_client
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(demo)/"
+      changes:
+        - client/**/*.{js,html,css,json,jpeg,jpg,png,PNG,JPG,JPEG,svg}
+        - client/{*.js,package*.json}
+
+deploy:demo:
+  extends: .deploy
+  tags:
+    - exco-dev
+    - exco-predev
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(demo)/"
+
+# DOMAIN SETUP FOR DEMO (EXCO)
+domain_setup:demo-exco:
+  extends: .domain_setup
+  tags:
+    - exco-dev
+    - exco-predev
+  after_script:
+    - echo "1" | sudo certbot --nginx --redirect -d demo.$CI_PROJECT_NAME.exco-apps.ch
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(demo)/"
+      allow_failure: true
+      changes:
+        - server/nginx/*

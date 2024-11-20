@@ -1,0 +1,8 @@
+.multi-line-paragraph {
+  height: 4em; /* height is 2x line-height, so two lines will display */
+  overflow: hidden; /* prevents extra lines from being visible */
+}
+
+.wrap-it {
+  word-wrap: break-word;
+}

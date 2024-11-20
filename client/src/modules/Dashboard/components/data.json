@@ -1,0 +1,784 @@
+{
+  "points": [
+    {
+      "id": "37115",
+      "point_nr": 903,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 9236,
+      "title": "2023032023 Feedbacks",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 0,
+      "time_estimate": "08:00",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "QA Testing Result || Adjust Staff Order || If a user is moved to a group personal category that only has one (1) personal category, it'll be gone after re-opening the modal.\n\nRepro Steps:\t\n\t1. Navigate to Employee Planning > View > Adjust Staff Order\n\t2. Move one user to a group personal category that only has one (1) personal category\n\t3. Click ok\n\t4. Click Option > Adjust Staff Order\nExpected Result:\t\n\tUsers are still displayed under their group category\nActual Result:\t\n\tNo data shows under the group personal category in step 2. \nNote:\t\n\tThis also applies to the group personal category (that has only one personal category) that already has users under it.\n\nImg1: One employee will be moved to a Group solo\nImg2: The user is moved to the \"Group Solo\". Notice that the text beside the user is the same text for the group personal category.\nImg3: Clicked Ok and reopen the modal\n",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Mon Mar 27 2023 01:17:59 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Thu Mar 23 2023 08:01:24 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Ralp  Yosores",
+        "description": "time_estimate",
+        "__typename": "PointHistory"
+      },
+      "files": [
+        {
+          "id": "24362",
+          "point_id": 37115,
+          "filename": "image_1679558388498.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24363",
+          "point_id": 37115,
+          "filename": "image_1679558435312.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24364",
+          "point_id": 37115,
+          "filename": "image_1679558554826.png",
+          "__typename": "File"
+        }
+      ],
+      "comments": [],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-23 08:01:24"
+        }
+      ]
+    },
+    {
+      "id": "36161",
+      "point_nr": 89,
+      "proj_id": 20655,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Praxisplan",
+      "feedback_id": 9037,
+      "title": "Komprimierte Ansicht ",
+      "version_name": "V1.0",
+      "version": "704|V1.0",
+      "time_approve": 0,
+      "time_estimate": "N/A",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "Ansicht, Personalplanung, Markwalder Stephanie, Krankheit GT ersichtlich. Bei Komprimierte Ansicht lückenhaft. Siehe Beispiel 10. und 14. April.",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200131",
+      "creator": "Silvia Wespi",
+      "ack": 0,
+      "date": "Mon Mar 27 2023 01:06:09 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Tue Feb 28 2023 18:06:58 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Ralp  Yosores",
+        "description": "status_update*Open",
+        "__typename": "PointHistory"
+      },
+      "files": [
+        {
+          "id": "23311",
+          "point_id": 36161,
+          "filename": "image_1677607395695.png",
+          "__typename": "File"
+        },
+        {
+          "id": "23312",
+          "point_id": 36161,
+          "filename": "image_1677607277273.png",
+          "__typename": "File"
+        }
+      ],
+      "comments": [
+        {
+          "id": "57937",
+          "user_id": 20200125,
+          "type": "developer",
+          "name": "Alvera Principe",
+          "comments": "Upon trying to recreate the issue, it seems that the issue can only occur if two specific conditions are met:\n\n1. The user is in the process of inserting plans into the tool (i.e., adding events or tasks to the calendar).\n2. The user exits the tool before the inserting of the plans is complete, causing the process to be disrupted.\n\nIn other words, if the user adds plans to the tool and then completes the process without exiting or disrupting the insertion, then the issue will not occur. However, if the user exits the tool or encounters a disruption during the insertion process, then the issue may arise.\n\nIt is possible that the disruption may cause the plans to be only partially inserted, resulting in missing or incomplete information. Alternatively, the disruption may cause the plans to be lost entirely, requiring the user to start over from scratch.\n\nTo prevent this issue, it is important for users to ensure that they complete the process of inserting plans into the tool before exiting or taking any actions that may disrupt the process. Additionally, it may be helpful for the tool to provide safeguards or prompts to prevent accidental disruptions or incomplete insertions.",
+          "date_commented": "Wed Mar 01 2023 07:16:12 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        },
+        {
+          "id": "57940",
+          "user_id": 20200125,
+          "type": "developer",
+          "name": "Alvera Principe",
+          "comments": "We suggest that to prevent the issue of incomplete plan insertion, it may be helpful to add a prompt message that will appear if the user tries to exit the tool before completing the insertion process. The prompt message could warn the user that their plans may not be saved and ask them to confirm that they want to exit the tool before the insertion is complete. This will help to prevent accidental exits or disruptions and ensure that the user's plans are fully inserted into the tool",
+          "date_commented": "Wed Mar 01 2023 07:26:15 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        },
+        {
+          "id": "59037",
+          "user_id": 20170063,
+          "type": "developer",
+          "name": "Andrea Frei",
+          "comments": "Please explain via call",
+          "date_commented": "Fri Mar 10 2023 14:14:10 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Leader"
+        }
+      ],
+      "team": [
+        {
+          "id": "20200125",
+          "name": "Alvera Principe",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-13 01:16:37"
+        },
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-13 01:16:37"
+        }
+      ]
+    },
+    {
+      "id": "19916",
+      "point_nr": 256,
+      "proj_id": 20430,
+      "client_id": 495,
+      "clientname": "_7_Exactflow",
+      "proj_name": "exactflow",
+      "feedback_id": 5393,
+      "title": "New Features",
+      "version_name": "1.0",
+      "version": "471|1.0",
+      "time_approve": 1,
+      "time_estimate": "08:00",
+      "hours_worked": "14:20",
+      "priority": "Low",
+      "instructions": "Please make a proposal for the dashboard: \n\n1. buildChart-File will be imported by us and saved (either as a file or in the db). \n2. Import-Data-File: Please check if this file can be stored either on db/file, so that other user do not need to import it again. \n3. Please make a proposal, where to insert the \"import\"-button. \n\nGoal: As less adjustment as possible in Raffis approach. ",
+      "inst_engtrans": null,
+      "status": "Question",
+      "deadline": "N/A",
+      "creator_id": "20170002",
+      "creator": "Adrian Frei",
+      "ack": 1,
+      "date": "Fri Mar 24 2023 17:54:52 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Thu Aug 26 2021 05:57:10 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Adrian Frei",
+        "description": "comment_added",
+        "__typename": "PointHistory"
+      },
+      "files": [
+        {
+          "id": "12655",
+          "point_id": 19916,
+          "filename": "image_1642066123654.png",
+          "__typename": "File"
+        },
+        {
+          "id": "12656",
+          "point_id": 19916,
+          "filename": "image_1642066134552.png",
+          "__typename": "File"
+        }
+      ],
+      "comments": [
+        {
+          "id": "29999",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "I will work on this after finishing other task from exact flow",
+          "date_commented": "Fri Sep 10 2021 05:52:52 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        },
+        {
+          "id": "31990",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "I still need to think on how to properly implement this feature, I think this is a big feature and needs a lot of time to implement. I will work on this task after finishing errors in the current core modules in exact flow. ",
+          "date_commented": "Tue Oct 19 2021 05:06:07 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        },
+        {
+          "id": "32253",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "This feature is already available in exactboard.",
+          "date_commented": "Sun Oct 24 2021 10:52:55 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "32254",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "Point 2: This can bloat the database as users have the freedom to import as many as they want. One option I can suggest is that we save the uploaded file somewhere in the server and just add expiration date for that file to be removed. We can also do this if we save the data in the database, we just need to add a limit.",
+          "date_commented": "Sun Oct 24 2021 10:56:47 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "32255",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "cont.ppoint2, a drop down should be provided in the UI where users can select which dataset to take the data from.",
+          "date_commented": "Sun Oct 24 2021 10:59:12 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "32256",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "Point 3, we can add the button at the top right and show a modal if clicked to assist the user with the importation of dataset and setting files",
+          "date_commented": "Sun Oct 24 2021 11:00:21 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "36539",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "Chart settings button added to top right of the page. When button is clicked, a modal pops up showing 2 different upload box. Instructions are provided on the modal.",
+          "date_commented": "Tue Jan 11 2022 09:27:53 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "36540",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "Data of the import will be stored in the database label them with the filename, user type id.",
+          "date_commented": "Tue Jan 11 2022 09:29:03 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "36541",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "Users with the same user type id will see the data even if they are not responsible for import such.",
+          "date_commented": "Tue Jan 11 2022 09:29:57 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "36654",
+          "user_id": 20170007,
+          "type": "developer",
+          "name": "Raffi Muloc",
+          "comments": "Applied on local and ready for checking",
+          "date_commented": "Thu Jan 13 2022 10:08:30 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Administrator"
+        },
+        {
+          "id": "58406",
+          "user_id": 20170002,
+          "type": "developer",
+          "name": "Adrian Frei",
+          "comments": "is this still a valid point? ",
+          "date_commented": "Mon Mar 06 2023 14:37:11 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Leader"
+        },
+        {
+          "id": "58466",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "This point is already implemented in the code. But This is not tested yet properly. I think we can close this, we will just add another point for optimizing or fixing found bugs. ",
+          "date_commented": "Tue Mar 07 2023 05:10:59 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        },
+        {
+          "id": "60262",
+          "user_id": 20170002,
+          "type": "developer",
+          "name": "Adrian Frei",
+          "comments": "lets discuss it next week how to proceed with this point",
+          "date_commented": "Fri Mar 24 2023 17:54:52 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Leader"
+        }
+      ],
+      "team": [
+        {
+          "id": "20170002",
+          "name": "Adrian Frei",
+          "project_role": "Project Leader",
+          "is_working": "active",
+          "date_updated": "2023-03-24 17:54:18"
+        },
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-24 17:54:18"
+        }
+      ]
+    },
+    {
+      "id": "37171",
+      "point_nr": 152,
+      "proj_id": 20655,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Praxisplan",
+      "feedback_id": 9141,
+      "title": "20230313",
+      "version_name": "V1.0",
+      "version": "704|V1.0",
+      "time_approve": 0,
+      "time_estimate": "N/A",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "Connected to point #125 || deleting entries should give a message: question: should absences also be deleted or only presence entries?",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Fri Mar 24 2023 08:08:30 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Fri Mar 24 2023 08:07:49 GMT+0000 (Coordinated Universal Time)",
+      "last_change": null,
+      "files": [],
+      "comments": [],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-24 08:07:49"
+        }
+      ]
+    },
+    {
+      "id": "36625",
+      "point_nr": 125,
+      "proj_id": 20655,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Praxisplan",
+      "feedback_id": 9141,
+      "title": "20230313",
+      "version_name": "V1.0",
+      "version": "704|V1.0",
+      "time_approve": 1,
+      "time_estimate": "08:00",
+      "hours_worked": "08:00",
+      "priority": "Low",
+      "instructions": "Deleting\n- Adding Holidays and other long-term planned absences should not be deleted with loading the standard. if there is an absence on a day already in. The standardwoche cannot load an entry at this day\n- deleting entries should give an message: question: should absences also be deleted or only presence entries.",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20170063",
+      "creator": "Andrea Frei",
+      "ack": 1,
+      "date": "Fri Mar 24 2023 07:44:30 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Mon Mar 13 2023 13:48:21 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Alvera Principe",
+        "description": "status_update*Open",
+        "__typename": "PointHistory"
+      },
+      "files": [
+        {
+          "id": "24377",
+          "point_id": 36625,
+          "filename": "image_1679562681535.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24422",
+          "point_id": 36625,
+          "filename": "image_1679643581102.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24423",
+          "point_id": 36625,
+          "filename": "image_1679643635981.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24424",
+          "point_id": 36625,
+          "filename": "image_1679643693583.png",
+          "__typename": "File"
+        }
+      ],
+      "comments": [
+        {
+          "id": "60112",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "I've added checkbox to choose if user wants to include absences in deleting plans",
+          "date_commented": "Thu Mar 23 2023 09:11:48 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        },
+        {
+          "id": "60209",
+          "user_id": 20200125,
+          "type": "developer",
+          "name": "Alvera Principe",
+          "comments": "This has failed the initial. Added a standard plan to an employee wherein the selected date range is already occupied by the absences/holidays but it seems that the added entries for the standard plan were loaded in the calendar, which should not be the case. And when I bulk delete the plotted shifts, left the checkbox \"Delete Absences\" unchecked, and clicked \"submit\", all the absences were deleted instead of only the Attendance = \"Yes\" must be deleted. See images attached for reference",
+          "date_commented": "Fri Mar 24 2023 07:44:27 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        }
+      ],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-14 01:30:06"
+        }
+      ]
+    },
+    {
+      "id": "35841",
+      "point_nr": 767,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 8838,
+      "title": "Mobile Application",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 1,
+      "time_estimate": "04:00",
+      "hours_worked": "05:00",
+      "priority": "Low",
+      "instructions": "Mobile Application || Generate mobile icon for viewing",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Fri Mar 24 2023 00:28:39 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Tue Feb 21 2023 08:48:05 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Ralp  Yosores",
+        "description": "comment_added",
+        "__typename": "PointHistory"
+      },
+      "files": [],
+      "comments": [
+        {
+          "id": "60168",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "I will work on this after priority task",
+          "date_commented": "Fri Mar 24 2023 00:28:39 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        }
+      ],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-02-21 08:48:05"
+        }
+      ]
+    },
+    {
+      "id": "36535",
+      "point_nr": 858,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 8838,
+      "title": "Mobile Application",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 1,
+      "time_estimate": "08:00",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "Mobile Application || Show/Display the timelogs of the user",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Fri Mar 24 2023 00:28:33 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Fri Mar 10 2023 05:28:38 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Ralp  Yosores",
+        "description": "comment_added",
+        "__typename": "PointHistory"
+      },
+      "files": [],
+      "comments": [
+        {
+          "id": "60167",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "I will work on this after priority task",
+          "date_commented": "Fri Mar 24 2023 00:28:33 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        }
+      ],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-10 05:28:38"
+        }
+      ]
+    },
+    {
+      "id": "36534",
+      "point_nr": 857,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 8838,
+      "title": "Mobile Application",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 1,
+      "time_estimate": "04:00",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "Mobile Application || Create API to fetch to insert time from the time management",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Fri Mar 24 2023 00:28:27 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Fri Mar 10 2023 05:28:00 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Ralp  Yosores",
+        "description": "comment_added",
+        "__typename": "PointHistory"
+      },
+      "files": [],
+      "comments": [
+        {
+          "id": "60166",
+          "user_id": 20170081,
+          "type": "developer",
+          "name": "Ralp  Yosores",
+          "comments": "I will work on this after priority task",
+          "date_commented": "Fri Mar 24 2023 00:28:27 GMT+0000 (Coordinated Universal Time)",
+          "project_role": "Project Staff"
+        }
+      ],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-10 05:28:00"
+        }
+      ]
+    },
+    {
+      "id": "36533",
+      "point_nr": 856,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 8838,
+      "title": "Mobile Application",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 1,
+      "time_estimate": "04:00",
+      "hours_worked": "00:30",
+      "priority": "Low",
+      "instructions": "Mobile Application || Create API to fetch the data of time management",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Thu Mar 23 2023 09:12:16 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Fri Mar 10 2023 05:27:23 GMT+0000 (Coordinated Universal Time)",
+      "last_change": null,
+      "files": [],
+      "comments": [],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-10 05:27:23"
+        }
+      ]
+    },
+    {
+      "id": "36532",
+      "point_nr": 855,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 8838,
+      "title": "Mobile Application",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 1,
+      "time_estimate": "03:00",
+      "hours_worked": "02:00",
+      "priority": "Low",
+      "instructions": "Mobile Application || Designing of the mobile timelogs",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Thu Mar 23 2023 01:11:19 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Fri Mar 10 2023 05:26:34 GMT+0000 (Coordinated Universal Time)",
+      "last_change": null,
+      "files": [],
+      "comments": [],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-10 05:26:34"
+        }
+      ]
+    },
+    {
+      "id": "37005",
+      "point_nr": 621,
+      "proj_id": 20430,
+      "client_id": 495,
+      "clientname": "_7_Exactflow",
+      "proj_name": "exactflow",
+      "feedback_id": 9214,
+      "title": "exactflow 'standard' users",
+      "version_name": "1.0",
+      "version": "471|1.0",
+      "time_approve": 0,
+      "time_estimate": "N/A",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "Please remove any users / e-mail adresses of people that are not working for exact constrcut anymore (I saw Xenia, AJ, Diana.. in the Zeochem tool). Furthermore, please no longer use any person that does not need to access to tool. As for the Tester, I even suppose to use a standard-e-mail (though with changing pw)",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20170048",
+      "creator": "Angela Felix",
+      "ack": 1,
+      "date": "Tue Mar 21 2023 16:24:42 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Tue Mar 21 2023 16:24:42 GMT+0000 (Coordinated Universal Time)",
+      "last_change": null,
+      "files": [],
+      "comments": [],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-21 16:24:42"
+        }
+      ]
+    },
+    {
+      "id": "36921",
+      "point_nr": 884,
+      "proj_id": 20568,
+      "client_id": 462,
+      "clientname": "praxisplan GmbH",
+      "proj_name": "Zeiterfassung / Mitarbeiterplanung",
+      "feedback_id": 9200,
+      "title": "20230320 Feedbacks",
+      "version_name": "V1.0",
+      "version": "612|V1.0",
+      "time_approve": 0,
+      "time_estimate": "N/A",
+      "hours_worked": "00:00",
+      "priority": "Low",
+      "instructions": "Komprimierte Ansicht || Added a shift in the Ansicht by double-clicking the shift Monitor(Dietary's Office) and filling in the start and end date as January 1 to January 8, 2023, to Employee M. On the Ansicht, the shift is not visible or plotted during the Holidays, which is the expected result. However, on the Komprimierte Ansicht, it seems that the shift is still plotted on the calendar table, which is not the intended behavior. Komprimierte Ansicht should reflect the plotted shifts on the Ansicht. Please refer to the attached sample images for further details.",
+      "inst_engtrans": null,
+      "status": "Open",
+      "deadline": "N/A",
+      "creator_id": "20200125",
+      "creator": "Alvera Principe",
+      "ack": 0,
+      "date": "Mon Mar 20 2023 07:58:25 GMT+0000 (Coordinated Universal Time)",
+      "date_created": "Mon Mar 20 2023 07:55:46 GMT+0000 (Coordinated Universal Time)",
+      "last_change": {
+        "name": "Alvera Principe",
+        "description": "file_added",
+        "__typename": "PointHistory"
+      },
+      "files": [
+        {
+          "id": "24141",
+          "point_id": 36921,
+          "filename": "image_1679298267073.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24142",
+          "point_id": 36921,
+          "filename": "image_1679298318843.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24143",
+          "point_id": 36921,
+          "filename": "image_1679298233874.png",
+          "__typename": "File"
+        },
+        {
+          "id": "24144",
+          "point_id": 36921,
+          "filename": "image_1679298188723.png",
+          "__typename": "File"
+        }
+      ],
+      "comments": [],
+      "team": [
+        {
+          "id": "20170081",
+          "name": "Ralp  Yosores",
+          "project_role": "Project Staff",
+          "is_working": "active",
+          "date_updated": "2023-03-20 07:55:46"
+        }
+      ]
+    }
+  ]
+}

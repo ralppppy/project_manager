@@ -1,0 +1,41 @@
+.multi-line-paragraph {
+  height: 4em; /* height is 2x line-height, so two lines will display */
+  overflow: hidden; /* prevents extra lines from being visible */
+}
+
+.wrap-it {
+  word-wrap: break-word;
+}
+
+.color-picker-custom {
+  position: relative;
+  border-radius: 4px;
+  width: 21px;
+  height: 21px;
+  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25);
+
+  background-size: 50% 50%;
+}
+.color-picker-container {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  background: #ffffff;
+}
+.color-picker-container-background {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  background: #ffffff;
+}

@@ -1,0 +1,94 @@
+# ===============================
+# Production Runner
+# ===============================
+
+install_client:production:
+  extends: .install_client
+  tags:
+    - master
+    - staging
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(master|staging)/"
+      changes:
+        - client/package*.json
+    - exists:
+        - client/node_modules/
+      when: never
+
+install_server:production:
+  extends: .install_server
+  tags:
+    - master
+    - staging
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(master|staging)/"
+      changes:
+        - server/package*.json
+    - exists:
+        - server/node_modules/
+      when: never
+
+database_setup:production:
+  extends: .database_setup
+  tags:
+    - master
+    - staging
+  rules:
+    - if: ("$CI_COMMIT_REF_NAME =~ /(master|staging)/") && $CI_COMMIT_DESCRIPTION =~ /database_setup_prod/
+
+database_migrate:production:
+  extends: .database_migrate
+  tags:
+    - master
+    - staging
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(master|staging)/"
+      allow_failure: true
+      changes:
+        - server/database/migrations/*.js
+        - server/database/seeders/*.js
+
+build_client:production:
+  extends: .build_client
+  tags:
+    - master
+    - staging
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(master|staging)/"
+      changes:
+        - client/**/*.{js,html,css,json,jpeg,jpg,png,PNG,JPG,JPEG,svg}
+        - client/{*.js,package*.json}
+
+deploy:production:
+  extends: .deploy
+  tags:
+    - master
+    - staging
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(master|staging)/"
+
+#DOMAIN SETUP FOR MASTER
+domain_setup:production-master:
+  extends: .domain_setup
+  tags:
+    - master
+  after_script:
+    - echo "1" | sudo certbot --nginx --redirect -d $CI_PROJECT_NAME.exco-apps.ch
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(master)/"
+      allow_failure: true
+      changes:
+        - server/nginx/*
+
+#DOMAIN SETUP FOR STAGING
+domain_setup:production-staging:
+  extends: .domain_setup
+  tags:
+    - praxis-staging
+  after_script:
+    - echo "1" | sudo certbot --nginx --redirect -d $CI_COMMIT_REF_NAME.$CI_PROJECT_NAME.exco-apps.ch
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /(staging)/"
+      allow_failure: true
+      changes:
+        - server/nginx/*

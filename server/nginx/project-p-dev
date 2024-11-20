@@ -1,0 +1,22 @@
+server {
+	server_name dev.exactflow.exco-apps.ch;
+	root /var/www/start-template/dev/client/dist;
+	
+	location / {
+		try_files $uri /index.html;
+	}
+	
+	location ~ ^/(download/pdf|public/export|public/translation|api)/ {
+		proxy_pass http://localhost:9362; # PORT of your nodejs server 
+		
+		# Add these headers if your server is using websockets
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection 'upgrade';
+		proxy_set_header Host $host;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_cache_bypass $http_upgrade;
+	}
+	
+	listen 80;
+	listen [::]:80;
+}

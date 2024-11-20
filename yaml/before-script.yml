@@ -1,0 +1,31 @@
+# ===============================
+# Before Script for Server to cache
+# ===============================
+default:
+  before_script: # Installs node_modules then edits NODE_ENV on .env file depending on what branch is pushed
+    - |
+      if [ "${CI_JOB_NAME:0:9}" != "changelog" ]; then
+        echo $CI_JOB_NAME;
+        ([ -d "$PROJECT_DIR/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME" ]) || (echo "creating project folder..." && sudo mkdir -p $PROJECT_DIR/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME);
+        ([ -f "./server/process.json" ] || (echo "generating process.json..." && $SCRIPTS_DIR/process.sh server/)) && (echo "updating .env..." && $SCRIPTS_DIR/custom_env.sh server/)
+      fi
+
+      if [ "${CI_JOB_NAME:0:12}" == "build_client" ]; then
+        if [ -d "./client/node_modules" ]; then
+          echo "client node_modules found, skipping..."
+        else
+          echo "installing for client..." && cd client && CI=false pnpm install && echo "installed client node_modules" && cd ..
+        fi
+      else
+        echo "not build_client job..."
+      fi
+
+      if [ "${CI_JOB_NAME:0:8}" == "database" ] || [ "${CI_JOB_NAME:0:6}" == "deploy" ]; then
+        if [ -d "./server/node_modules" ]; then
+          echo "server node_modules found, skipping..."
+        else
+          echo "installing for server..." && cd server && CI=false pnpm install && echo "installed server node_modules" && cd ..
+        fi
+      else
+        echo "not database or deploy job..."
+      fi
